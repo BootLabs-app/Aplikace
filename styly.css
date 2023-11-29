@@ -1,0 +1,25 @@
+@font-face {
+    font-family: normal;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+.button1
+{
+   border-radius: 10px;
+   background-color: transparent;
+   border: 0;
+   font-family: normal;
+}
+.container
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding-top: auto;
+    padding-bottom: auto;
+    position: absolute;
+    left: 1000px;
+}
+body
+{
+    font-family: normal;
+}
