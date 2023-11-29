@@ -1,0 +1,48 @@
+@font-face {
+    font-family: normal;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+
+#first{
+    height: 125px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    div{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #l{
+        color: #0066FE;
+    }
+    h1 {
+        color: white;
+
+
+    }
+}
+#second{
+    height: 125px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    font-family: normal;
+}
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    opacity: 0.93;
+}
+.main{
+    background-color: black;
+}
