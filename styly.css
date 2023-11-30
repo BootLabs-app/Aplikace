@@ -3,7 +3,7 @@
   src: url(RobotoMono-VariableFont_wght.ttf);
 }
 #first {
-  height: 125px;
+  height: 95px;
   width: 350px;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@
 }
 
 #second {
-  height: 125px;
+  height: 95px;
   width: 350px;
   display: flex;
   flex-direction: row;
@@ -33,7 +33,7 @@
 }
 
 header {
-  height: 120px;
+  height: 95px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -44,6 +44,4 @@ header {
 
 .main {
   background-color: black;
-}
-
-/*# sourceMappingURL=styly.css.map */
+}/*# sourceMappingURL=styly.css.map */
