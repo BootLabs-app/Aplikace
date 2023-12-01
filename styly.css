@@ -40,8 +40,151 @@ header {
   flex-direction: row;
   background-color: #1E1E1E;
   opacity: 0.93;
+  position: fixed;
 }
 
 .main {
-  background-color: black;
+  background-color: rgb(10, 12, 11);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  font-family: normal;
+}
+
+.section1 {
+  min-height: 500px;
+  height: 900px;
+  color: white;
+}
+.section1 .textmain {
+  display: flex;
+  margin-top: 50vh;
+  margin-left: 10%;
+}
+.section1 .textmain h1 {
+  font-size: 70px;
+}
+.section1 .decor {
+  float: right;
+  display: flex;
+  margin-top: -30vh;
+}
+
+.section2 {
+  min-width: 1000px;
+}
+.section2 .texty {
+  margin-top: 75vh;
+}
+.section2 .text1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -55vh;
+  margin-bottom: 150vh;
+  margin-left: 10vw;
+}
+.section2 .text1 .nadpis1 {
+  display: flex;
+  flex-direction: row;
+}
+.section2 .text1 .nadpis1 #char {
+  color: #0066FE;
+}
+.section2 .text1 .popis1 {
+  font-size: 30px;
+  padding-left: 25px;
+}
+.section2 .text2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -165vh;
+  margin-right: 10vw;
+  margin-left: 50vw;
+  margin-bottom: 60vh;
+}
+.section2 .text2 .nadpis2 {
+  display: flex;
+  flex-direction: row;
+}
+.section2 .text2 .nadpis2 #char {
+  color: #0066FE;
+}
+.section2 .text2 .popis2 {
+  font-size: 30px;
+  padding-left: 25px;
+}
+.section2 .text3 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -55vh;
+  margin-bottom: 50vh;
+  margin-left: 10vw;
+}
+.section2 .text3 .nadpis3 {
+  display: flex;
+  flex-direction: row;
+}
+.section2 .text3 .nadpis3 #char {
+  color: #0066FE;
+}
+.section2 .text3 .popis3 {
+  font-size: 30px;
+  padding-left: 25px;
+}
+.section2 .decor2 {
+  float: right;
+  margin-bottom: -40vh;
+}
+.section2 .decor3 {
+  margin-bottom: -20vh;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  height: 250px;
+  width: 100%;
+  background-color: #1E1E1E;
+  color: white;
+  margin-top: auto;
+}
+footer .nadpis h2 {
+  font-size: 35px;
+  opacity: 0.3;
+}
+footer .info p {
+  font-size: 20px;
+  opacity: 0.3;
+}
+footer .kontakt {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding-left: 5em;
+  padding-top: 2em;
+}
+footer .footerlogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1vw;
+  margin-top: -5vh;
+}
+footer .footerlogo .logonapis {
+  opacity: 0.3;
+  display: flex;
+  flex-direction: row;
+}
+footer .footerlogo .logonapis #l {
+  color: #0066FE;
+}
+footer .footerlogo .text {
+  opacity: 0.3;
+  padding-top: 15px;
 }/*# sourceMappingURL=styly.css.map */

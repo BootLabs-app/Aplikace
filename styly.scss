@@ -14,7 +14,6 @@
     div{
         display: flex;
         flex-direction: row;
-        
     }
     #l{
         color: #0066FE;
@@ -42,7 +41,181 @@ header{
     flex-direction: row;
     background-color: #1E1E1E;
     opacity: 0.93;
+    position: fixed;
 }
 .main{
-    background-color: black;
+    background-color: rgb(10, 12, 11);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div
+{
+    font-family: normal;
+}
+.section1
+{
+    min-height: 500px;
+    height: 900px;
+    color: white;
+    .textmain
+    {
+        h1
+        {
+            font-size: 70px;
+        }
+        display: flex;
+        margin-top: 50vh;
+        margin-left: 10%;
+    }
+    .decor
+    {
+        float: right;
+        display: flex;
+        margin-top: -30vh;
+    }
+}
+.section2
+{
+    min-width: 1000px;
+    
+    .texty
+    {
+        margin-top: 75vh;
+    }
+    .text1
+    {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -55vh;
+        margin-bottom: 150vh;
+        margin-left: 10vw;
+        .nadpis1
+        {
+            display: flex;
+            flex-direction: row;
+            #char
+            {
+                color: #0066FE;
+            }
+        }
+        .popis1
+        {
+            font-size: 30px;
+            padding-left: 25px;
+        }
+    }
+    .text2
+    {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -165vh;
+        margin-right: 10vw;
+        margin-left: 50vw;
+        margin-bottom: 60vh;
+        .nadpis2
+        {
+            display: flex;
+            flex-direction: row;
+            #char
+            {
+                color: #0066FE;
+            }
+        }
+        .popis2
+        {
+            font-size: 30px;
+            padding-left: 25px;
+        }
+    }
+    .text3
+    {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -55vh;
+        margin-bottom: 50vh;
+        margin-left: 10vw;
+        .nadpis3
+        {
+            display: flex;
+            flex-direction: row;
+            #char
+            {
+                color: #0066FE;
+            }
+        }
+        .popis3
+        {
+            font-size: 30px;
+            padding-left: 25px;
+        }
+    }
+    .decor2
+    {
+        float: right;
+        margin-bottom: -40vh;
+    }
+    .decor3
+    {
+        margin-bottom: -20vh;
+    }
+}
+footer{
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #1E1E1E;
+    color: white;
+    margin-top: auto;
+    .nadpis
+    {
+        h2
+        {
+            font-size: 35px;
+            opacity: 0.3;
+        }
+    }
+    .info
+    {
+        p
+        {
+            font-size: 20px;
+            opacity: 0.3;
+        }
+    }
+    .kontakt
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        padding-left: 5em;
+        padding-top: 2em;
+    }
+    .footerlogo
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+        margin-top: -5vh;
+        .logonapis
+        {
+            opacity: 0.3;
+            display: flex;
+            flex-direction: row;
+            #l
+            {
+                color: #0066FE;
+            }
+        }
+        .text
+        {
+            opacity: 0.3;
+            padding-top: 15px;
+        }
+    }
 }
