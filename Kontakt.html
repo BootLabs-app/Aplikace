@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BootLabs</title>
     <link rel="stylesheet" href="styly.css">
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.js"></script>
   </head>
   <body class="main-onas">
     <header>
@@ -22,7 +22,7 @@
       <div id="second">
         <ul class="nav nav-pills nav-fill">
           <li class="nav-item">
-            <a class="nav-link" href="home.html">Domů</a>
+            <a class="nav-link" href="index.html">Domů</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Onas.html">O nás</a>
@@ -33,24 +33,33 @@
         </ul>
       </div>
     </header>
-    <div class="Onas">
+    <div class="kontaktdecor">
+      <img src="kontaktdecor.jpg" alt="kontaktdecor">
+    </div>
+    <div class="kontakt1">
       <div class="nadpis">
         <h1 id="char">></h1><h1>Kontaktujte nás</h1>
       </div>
-      <div class="formular">
-        <div id="A">
-          <input type="text" placeholder="Jméno" >
+      <form action="mailto:info@bootlabs.cz">
+        <div class="formular">
+          <div id="A">
+            <input id="name" type="text" placeholder="Jméno" >
+          </div>
+          <div id="B">
+            <input id="mail" type="text" placeholder="Email" >
+          </div>
+          <div id="C">
+            <textarea id="msg" placeholder="Zpráva" id="body"></textarea>
+          </div>
+          <div id="D">
+            <button> Odeslat</button>
+          </div>
         </div>
-        <div id="B">
-          <input type="text" placeholder="Email" >
-        </div>
-        <div id="C">
-          <textarea placeholder="Zpráva"></textarea>
-        </div>
-        <div id="D">
-          <button> Odeslat</button>
-        </div>
-      </div>
+      </form>
+      
+    </div>
+    <div class="kontaktdecor2">
+      <img src="kontaktdecor2.png" alt="kontaktdecor2">
     </div>
     <footer>
       <div class="kontakt">

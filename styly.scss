@@ -1,8 +1,23 @@
+@media screen and (max-height: 900px){
+    .kontakt1{
+        margin-top: -30vh;
+    }
+}
+@media screen and (min-height: 901px){
+    .kontakt1{
+        margin-top: -20vh;
+    }
+}
+
 @font-face {
     font-family: normal;
     src: url(RobotoMono-VariableFont_wght.ttf);
 }
-
+header
+{
+    z-index: 3;
+    top: 0;
+}
 #first{
     height: 95px;
     width: 350px;
@@ -52,6 +67,20 @@ div
 {
     font-family: normal;
 }
+.onasdecor
+{
+    img{
+        height: 400px;
+        float: right;
+    }
+
+}
+.onasdecor2
+{
+    img{
+        height: 400px;
+    }
+}
 .section1
 {
     min-height: 500px;
@@ -76,7 +105,7 @@ div
 }
 .section2
 {
-    min-width: 1000px;
+    min-width: 900px;
     
     .texty
     {
@@ -135,7 +164,7 @@ div
         display: flex;
         flex-direction: column;
         margin-top: -55vh;
-        margin-bottom: 50vh;
+        margin-bottom: 40vh;
         margin-left: 10vw;
         .nadpis3
         {
@@ -169,7 +198,8 @@ footer{
     width: 100%;
     background-color: #1E1E1E;
     color: white;
-    margin-top: auto;
+    padding-top: 5vh;
+    
     .nadpis
     {
         h2
@@ -192,7 +222,7 @@ footer{
         flex-direction: column;
         gap: 1vh;
         padding-left: 5em;
-        padding-top: 2em;
+        
     }
     .footerlogo
     {
@@ -227,7 +257,9 @@ footer{
     justify-self: center;
     color: white;
     gap: 50px;
-    margin-top: 20vh;
+    margin-top: -15vh;
+    margin-bottom: -30vh;
+    z-index: 1;
 
     p{
         font-size: 30px;
@@ -259,8 +291,90 @@ footer{
     display: grid;
     height: 100vh;
 }
+.kontaktdecor
+{
+    img{
+        height: 450px;
+    }
+}
+.kontaktdecor2
+{
+    img{
+        height: 450px;
+        float: right;
+    }
+}
+.section3
+{
+    height: 500px;
+    background-color: #1E1E1E;
+    margin-bottom: 50vh;
+    .text1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        p{
+            font-size: 20px;
+        }
 
-.formular{
+    }
+    .hlavninadpis
+    {
+        justify-content: center;
+        display: flex;
+        padding-top: 2.5vh;
+        h1{
+            font-size: 40px;
+        }
+    }
+    .nadpis1
+    {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2.5vh;
+        padding-left: 10px;
+    }
+    #char{
+        color: #0066FE;
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+}
+.kontakt1
+{
+    
+    height: 450px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    gap: 50px;
+    margin-bottom: -30vh;
+    z-index: 1;
+    
+    p{
+        font-size: 30px;
+    
+
+    }
+    .nadpis{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        h1{ 
+            font-size: 70px;
+    
+        }
+        #char
+        {
+            color: #0066FE;
+        }
+    }
+    .formular{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 80px);
@@ -325,6 +439,8 @@ footer{
         
 
     }
+}
+
     //přidělat alert po odeslání
     //změnit design
 }

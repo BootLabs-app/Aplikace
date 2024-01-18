@@ -1,7 +1,21 @@
+@media screen and (max-height: 900px) {
+  .kontakt1 {
+    margin-top: -30vh;
+  }
+}
+@media screen and (min-height: 901px) {
+  .kontakt1 {
+    margin-top: -20vh;
+  }
+}
 @font-face {
   font-family: normal;
   src: url(RobotoMono-VariableFont_wght.ttf);
 }
+header {
+  z-index: 3;
+}
+
 #first {
   height: 95px;
   width: 350px;
@@ -53,6 +67,15 @@ div {
   font-family: normal;
 }
 
+.onasdecor img {
+  height: 400px;
+  float: right;
+}
+
+.onasdecor2 img {
+  height: 400px;
+}
+
 .section1 {
   min-height: 500px;
   height: 900px;
@@ -73,7 +96,7 @@ div {
 }
 
 .section2 {
-  min-width: 1000px;
+  min-width: 900px;
 }
 .section2 .texty {
   margin-top: 75vh;
@@ -122,7 +145,7 @@ div {
   display: flex;
   flex-direction: column;
   margin-top: -55vh;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
   margin-left: 10vw;
 }
 .section2 .text3 .nadpis3 {
@@ -151,7 +174,7 @@ footer {
   width: 100%;
   background-color: #1E1E1E;
   color: white;
-  margin-top: auto;
+  padding-top: 5vh;
 }
 footer .nadpis h2 {
   font-size: 35px;
@@ -166,7 +189,6 @@ footer .kontakt {
   flex-direction: column;
   gap: 1vh;
   padding-left: 5em;
-  padding-top: 2em;
 }
 footer .footerlogo {
   display: flex;
@@ -196,7 +218,9 @@ footer .footerlogo .text {
   justify-self: center;
   color: white;
   gap: 50px;
-  margin-top: 20vh;
+  margin-top: -15vh;
+  margin-bottom: -30vh;
+  z-index: 1;
 }
 .Onas p {
   font-size: 30px;
@@ -224,37 +248,106 @@ footer .footerlogo .text {
   height: 100vh;
 }
 
-.formular {
+.kontaktdecor img {
+  height: 450px;
+}
+
+.kontaktdecor2 img {
+  height: 450px;
+  float: right;
+}
+
+.section3 {
+  height: 500px;
+  background-color: #1E1E1E;
+  margin-bottom: 50vh;
+}
+.section3 .text1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+.section3 .text1 p {
+  font-size: 20px;
+}
+.section3 .hlavninadpis {
+  justify-content: center;
+  display: flex;
+  padding-top: 2.5vh;
+}
+.section3 .hlavninadpis h1 {
+  font-size: 40px;
+}
+.section3 .nadpis1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2.5vh;
+  padding-left: 10px;
+}
+.section3 #char {
+  color: #0066FE;
+}
+.section3 h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.kontakt1 {
+  height: 450px;
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  color: white;
+  gap: 50px;
+  margin-bottom: -30vh;
+  z-index: 1;
+}
+.kontakt1 p {
+  font-size: 30px;
+}
+.kontakt1 .nadpis {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.kontakt1 .nadpis h1 {
+  font-size: 70px;
+}
+.kontakt1 .nadpis #char {
+  color: #0066FE;
+}
+.kontakt1 .formular {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 80px);
   gap: 30px;
 }
-.formular input::-moz-placeholder {
+.kontakt1 .formular input::-moz-placeholder {
   color: white;
   opacity: 1;
   text-align: center;
   font-size: 32px;
 }
-.formular input::placeholder {
+.kontakt1 .formular input::placeholder {
   color: white;
   opacity: 1;
   text-align: center;
   font-size: 32px;
 }
-.formular textarea::-moz-placeholder {
+.kontakt1 .formular textarea::-moz-placeholder {
   color: white;
   opacity: 1;
   font-size: 32px;
   padding-left: 15px;
 }
-.formular textarea::placeholder {
+.kontakt1 .formular textarea::placeholder {
   color: white;
   opacity: 1;
   font-size: 32px;
   padding-left: 15px;
 }
-.formular input {
+.kontakt1 .formular input {
   height: 100%;
   width: 100%;
   border-radius: 15px;
@@ -263,7 +356,7 @@ footer .footerlogo .text {
   color: white;
   font-size: 32px;
 }
-.formular textarea {
+.kontakt1 .formular textarea {
   height: 100%;
   width: 100%;
   resize: none;
@@ -272,17 +365,17 @@ footer .footerlogo .text {
   border: none;
   color: white;
 }
-.formular #C {
+.kontakt1 .formular #C {
   grid-column: 1/3;
   grid-row: 2/4;
 }
-.formular #D {
+.kontakt1 .formular #D {
   grid-column: 2/3;
   grid-row: 4/5;
   display: grid;
   justify-content: end;
 }
-.formular button {
+.kontakt1 .formular button {
   height: 75px;
   width: 205px;
   border-radius: 15px;
