@@ -13,6 +13,33 @@
     font-family: normal;
     src: url(RobotoMono-VariableFont_wght.ttf);
 }
+.kontakt2{
+    a:link
+    {
+        text-decoration: none;
+    }
+    a:hover
+    {
+        color: #0066FE;
+    }
+    #char
+    {
+        color: #0066FE;
+    }
+    .text{
+        color: white;
+        a:link
+        {
+            text-decoration: none;
+        }
+        
+        
+    }
+}
+.spolu{
+    display: flex;
+    flex-direction: row;
+}
 header
 {
     z-index: 3;
