@@ -35,6 +35,16 @@
         
         
     }
+    .spolu:hover {
+        .text{
+            color: #0066FE;
+        }
+        #char{
+            color: white;
+        }
+    
+    }
+    
 }
 .spolu{
     display: flex;

@@ -27,6 +27,12 @@
 .kontakt2 .text a:link {
   text-decoration: none;
 }
+.kontakt2 .spolu:hover .text {
+  color: #0066FE;
+}
+.kontakt2 .spolu:hover #char {
+  color: white;
+}
 
 .spolu {
   display: flex;
