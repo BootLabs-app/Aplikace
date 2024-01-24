@@ -8,6 +8,28 @@
         margin-top: -20vh;
     }
 }
+@media screen and (max-width: 1500px){
+
+}
+@media screen and (max-width: 1000px){
+    .kontakt1
+    {
+        .nadpis
+        {
+            h1{ 
+                font-size: 30px;
+            }
+        }
+        .kontakt2
+        {
+            p
+        {
+            font-size: 25px;
+        }
+        }
+    }
+    
+}
 
 @font-face {
     font-family: normal;
@@ -330,7 +352,6 @@ footer{
     background-color: rgb(10, 12, 11);
     display: grid;
     height: 100vh;
-    width: 100vw;
 }
 .kontaktdecor
 {
@@ -484,4 +505,3 @@ footer{
 
     //přidělat alert po odeslání
     //změnit design
-}
