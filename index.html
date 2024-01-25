@@ -8,14 +8,18 @@
     <meta name="keywords" content="mobilní aplikace, kyberbezpečnost, vývoj, bezpečnost, IT, technologie">
 
     <title>Bezpečná Aplikace na míru | BootLabs</title>
+
     <link rel="stylesheet" href="styly.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="bootstrap.bundle.js"></script>
+    
   </head>
   <body class="main">
     <header>
       <div id="first">
-        <img src="Images/LOGO 16.39.19.png" alt="LOGO">
+        <div id="image">
+          <img src="Images/LOGO 16.39.19.png" alt="LOGO">
+        </div>
         <div>
           <h1>Boot</h1>
           <h1 id="l">L</h1>
@@ -35,10 +39,21 @@
           </li>
         </ul>
       </div>
+      <div onclick="openNav()" id="second-mobile">
+        <img src="Images/menu.png" alt="menu">
+      </div>
     </header>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="active" href="index.html">Domů</a>
+      <a href="Onas.html">O nás</a>
+      <a href="Kontakt.html">Kontakt</a>
+    </div>
+
     <div class="section1">
         <div class="textmain">  
-            <h1>Aplikace a<br>bezpečnost na míru<br>pro vaši firmu</h1>
+            <h1>Aplikace a <br class="desktop">bezpečnost <br class="mobile">na míru<br> pro vaši firmu</h1>
         </div>
         <div class="decor">
           <img src="/Images/maindecor.png" alt="decor" style="height: 1300px; width: 700px;">
@@ -46,30 +61,30 @@
     </div>
     <div class="section2">
       <div class="texty">
-        <div class="text1">
-          <div class="nadpis1">
-            <h1 id="char">></h1><h1>Webové aplikace</h1>
+        <div class="text1" id="mobile-text">
+          <div class="nadpis1" id="mobile-nadpis">
+            <h1 id="char">></h1><h1>Webo<h1 id="blue">vé ap</h1><h1>likace</h1>
           </div>
-          <div class="popis1">
-            <p>Náš tým na vývoj webových<br>apliakcí se stará o<br>poskytnutí nejlepších<br>
-              možných řešení<br>
+          <div class="popis1" id="mobile-popis">
+            <p>Náš tým na vývoj webových<br class="desktop">apliakcí se stará o<br class="desktop">poskytnutí nejlepších<br class="desktop">
+              možných řešení<br class="desktop">
               pro vás</p>
           </div>
         </div>
-        <div class="text2">
-          <div class="nadpis2">
-            <h1 id="char">></h1><h1>Mobilní aplikace</h1>
+        <div class="text2" id="mobile-text">
+          <div class="nadpis2" id="mobile-nadpis">
+            <h1 id="char">></h1><h1>Mobil<h1 id="blue">ní ap</h1><h1>likace</h1>
           </div>
-          <div class="popis2">
-            <p>Přinášíme na trh moderní<br>a uživatelsky příjemné mobilní<br>aplikace pro platformy Android a iOS</p>
+          <div class="popis2" id="mobile-popis">
+            <p>Přinášíme na trh moderní<br class="desktop">a uživatelsky příjemné mobilní<br class="desktop">aplikace pro platformy Android a iOS</p>
           </div>
         </div>
-        <div class="text3">
-          <div class="nadpis3">
-            <h1 id="char">></h1><h1>Bezpečnostní řešení</h1>
+        <div class="text3" id="mobile-text">
+          <div class="nadpis3" id="mobile-nadpis">
+            <h1 id="char">></h1><h1>Bezpeč<h1 id="blue">nost</h1><h1>ní řešení</h1>
           </div>
-          <div class="popis3">
-            <p>Nabídneme vám nejlepší možné<br>řešení s ohledem na<br>aktualní bezpečnostní trendy a potřeby</p>
+          <div class="popis3" id="mobile-popis">
+            <p>Nabídneme vám nejlepší možné<br class="desktop">řešení s ohledem na<br class="desktop">aktualní bezpečnostní trendy a potřeby</p>
           </div>
         </div>
       </div>
@@ -92,15 +107,15 @@
       </div>
       <div class="footerlogo">
         <div class="logonapis">
-          <h1>Boot</h1>
-          <h1 id="l">L</h1>
-          <h1>abs</h1>
+          <h1 class="mobile-footer">Boot</h1>
+          <h1 class="mobile-footer" id="l">L</h1>
+          <h1 class="mobile-footer" >abs</h1>
         </div>
         <div class="text">
           <p>@ 2023 BootLabs s.r.o.</p>
         </div>
       </div>
-
     </footer>
+    <script src="dropdown.js"></script>
   </body>
 </html>
