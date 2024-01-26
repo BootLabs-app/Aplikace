@@ -512,6 +512,12 @@ footer{
     
 @media screen and (min-width: 1000px){
 
+    .nadpis
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
     header{
         height: 12vh;
         width: 100vw;
@@ -555,7 +561,7 @@ footer{
 
     #second{
         height: 95px;
-        width: 250px;
+        width: 350px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -726,11 +732,12 @@ footer{
         img{
             height: 400px;
             float: right;
+            margin-bottom: -20vh;
         }
 
     }
     .onasdecor2{
-        margin-top: 15vh;
+        
         img{
             height: 400px;
         }
@@ -793,17 +800,18 @@ footer{
             }
         }
     }
-
+.main-onas
+{
     .Onas{
         height: 450px;
         display: flex;
         flex-direction: column;
-        justify-self: center;
         color: white;
         gap: 50px;
         margin-top: 35vh;
-        margin-left: 25vw;
         z-index: 1;
+        margin-left: 15%;
+        
 
         p{
             font-size: 30px;
@@ -813,7 +821,6 @@ footer{
         .nadpis{
             display: flex;
             flex-direction: row;
-            gap: 20px;
             h1{ 
                 font-size: 70px;
 
@@ -830,6 +837,8 @@ footer{
             width: 1000px;
         }
     }
+}
+    
 
     .kontaktdecor{
         img{
@@ -840,6 +849,9 @@ footer{
         img{
             height: 450px;
             float: right;
+            margin-top: -45vh;
+            position: relative;
+            z-index: -1;
         }
     }
     .section3{
@@ -880,17 +892,130 @@ footer{
             color: white;
         }
     }
+
+    
+    
+    .Sluzby-texty
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        width: 1150px;
+        margin-left: 50%;
+        margin-right: 50%;
+        transform : translateX(-50%);
+        .container-texty
+    {
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+        justify-self: center;
+
+        .Sluzby-podtext
+        {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            width: 35vw;
+            height: auto;
+            background-color: #1E1E1E;
+            border-radius: 20px;
+            
+            .podnadpis
+            {
+                color: white;
+                display: flex;
+                flex-direction: row;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                h1{
+                    font-size: 30px;
+                }
+            }
+            #char
+            {
+                color: #0066FE;
+            }
+            .podtext-onas
+            {
+                color: white;
+                width: 400px;
+                padding-bottom: 20px;
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    }
+    .Sluzby-text{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        color: white;
+        gap: 50px;
+        z-index: 1;
+
+        
+        .nadpis{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            h1{ 
+                font-size: 70px;
+
+            }
+            #char
+            {
+                color: #0066FE;
+            }
+        }
+        .podnadpis{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            h1{ 
+                font-size: 40px;
+
+            }
+            #char
+            {
+                color: #0066FE;
+            }
+        }
+        .podtext-onas{
+            margin-left: 40px;
+            height: 365px;
+            width: 1000px;
+            p{
+                font-size: 20px;
+            }
+        }
+        .text-onas{
+            margin-left: 40px;
+            height: 365px;
+            width: 1000px;
+            p{
+                font-size: 30px;
+            }
+        }
+    }
     .kontakt1{
         
         height: 450px;
         width: 1150px;
         display: flex;
         flex-direction: column;
-        justify-self: center;
+        margin-left: 50%;
+        margin-right: 50%;
+        transform : translateX(-50%);
         color: white;
         gap: 50px;
-        margin-bottom: -30vh;
         z-index: 1;
+        margin-top: -30vh;
+        margin-bottom: 20vh;
         
         p{
             font-size: 30px;
@@ -977,15 +1102,23 @@ footer{
         }
     }
     }
+    .sluzbydecor2
+    {
+        img{
+            margin-top: -50vh;
+        }
+    }
 
     footer{
         bottom: 0;
         left: 0;
         height: 250px;
-        width: 100vw;
+        width: 100%;
         background-color: #1E1E1E;
         color: white;
         padding-top: 5vh;
+        
+        
         
         .nadpis
         {

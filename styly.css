@@ -359,6 +359,11 @@ footer .footerlogo .text {
   src: url(RobotoMono-VariableFont_wght.ttf);
 }
 @media screen and (min-width: 1000px) {
+  .nadpis {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
   header {
     height: 12vh;
     width: 100vw;
@@ -395,7 +400,7 @@ footer .footerlogo .text {
   }
   #second {
     height: 95px;
-    width: 250px;
+    width: 350px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -528,9 +533,7 @@ footer .footerlogo .text {
   .onasdecor img {
     height: 400px;
     float: right;
-  }
-  .onasdecor2 {
-    margin-top: 15vh;
+    margin-bottom: -20vh;
   }
   .onasdecor2 img {
     height: 400px;
@@ -577,32 +580,30 @@ footer .footerlogo .text {
     opacity: 0.3;
     padding-top: 15px;
   }
-  .Onas {
+  .main-onas .Onas {
     height: 450px;
     display: flex;
     flex-direction: column;
-    justify-self: center;
     color: white;
     gap: 50px;
     margin-top: 35vh;
-    margin-left: 25vw;
     z-index: 1;
+    margin-left: 15%;
   }
-  .Onas p {
+  .main-onas .Onas p {
     font-size: 30px;
   }
-  .Onas .nadpis {
+  .main-onas .Onas .nadpis {
     display: flex;
     flex-direction: row;
-    gap: 20px;
   }
-  .Onas .nadpis h1 {
+  .main-onas .Onas .nadpis h1 {
     font-size: 70px;
   }
-  .Onas .nadpis #char {
+  .main-onas .Onas .nadpis #char {
     color: #0066FE;
   }
-  .Onas .text-onas {
+  .main-onas .Onas .text-onas {
     margin-left: 40px;
     height: 365px;
     width: 1000px;
@@ -613,6 +614,9 @@ footer .footerlogo .text {
   .kontaktdecor2 img {
     height: 450px;
     float: right;
+    margin-top: -45vh;
+    position: relative;
+    z-index: -1;
   }
   .section3 {
     height: 500px;
@@ -648,16 +652,112 @@ footer .footerlogo .text {
     font-size: 30px;
     color: white;
   }
-  .kontakt1 {
-    height: 450px;
+  .Sluzby-texty {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
     width: 1150px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+  }
+  .Sluzby-texty .container-texty {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-self: center;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    height: auto;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext .podnadpis {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext .podnadpis h1 {
+    font-size: 30px;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext #char {
+    color: #0066FE;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext .podtext-onas {
+    color: white;
+    width: 400px;
+    padding-bottom: 20px;
+  }
+  .Sluzby-texty .container-texty .Sluzby-podtext .podtext-onas p {
+    font-size: 10px;
+  }
+  .Sluzby-text {
     display: flex;
     flex-direction: column;
     justify-self: center;
     color: white;
     gap: 50px;
-    margin-bottom: -30vh;
     z-index: 1;
+  }
+  .Sluzby-text .nadpis {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .Sluzby-text .nadpis h1 {
+    font-size: 70px;
+  }
+  .Sluzby-text .nadpis #char {
+    color: #0066FE;
+  }
+  .Sluzby-text .podnadpis {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .Sluzby-text .podnadpis h1 {
+    font-size: 40px;
+  }
+  .Sluzby-text .podnadpis #char {
+    color: #0066FE;
+  }
+  .Sluzby-text .podtext-onas {
+    margin-left: 40px;
+    height: 365px;
+    width: 1000px;
+  }
+  .Sluzby-text .podtext-onas p {
+    font-size: 20px;
+  }
+  .Sluzby-text .text-onas {
+    margin-left: 40px;
+    height: 365px;
+    width: 1000px;
+  }
+  .Sluzby-text .text-onas p {
+    font-size: 30px;
+  }
+  .kontakt1 {
+    height: 450px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+    color: white;
+    gap: 50px;
+    z-index: 1;
+    margin-top: -30vh;
+    margin-bottom: 20vh;
   }
   .kontakt1 p {
     font-size: 30px;
@@ -740,11 +840,14 @@ footer .footerlogo .text {
     border: none;
     font-size: 25px;
   }
+  .sluzbydecor2 img {
+    margin-top: -50vh;
+  }
   footer {
     bottom: 0;
     left: 0;
     height: 250px;
-    width: 100vw;
+    width: 100%;
     background-color: #1E1E1E;
     color: white;
     padding-top: 5vh;
