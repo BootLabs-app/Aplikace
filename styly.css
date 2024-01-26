@@ -660,6 +660,7 @@ footer .footerlogo .text {
     margin-left: 50%;
     margin-right: 50%;
     transform: translateX(-50%);
+    margin-bottom: 20vh;
   }
   .Sluzby-texty .container-texty {
     z-index: 1;
@@ -842,6 +843,12 @@ footer .footerlogo .text {
   }
   .sluzbydecor2 img {
     margin-top: -50vh;
+    width: 450px;
+  }
+  .sluzbydecor img {
+    width: 450px;
+    float: right;
+    margin-bottom: -25vh;
   }
   footer {
     bottom: 0;
