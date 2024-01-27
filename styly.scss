@@ -671,11 +671,13 @@ footer{
         .decor2
         {
             float: right;
-            margin-bottom: -40vh;
+            margin-top: -30vh;
         }
         .decor3
         {
-            margin-bottom: -20vh;
+            margin-top: -60vh;
+            position: relative;
+            z-index: -1;
         }
     }
 
@@ -740,6 +742,9 @@ footer{
         
         img{
             height: 400px;
+            margin-top: -20vh;
+            position: relative;
+            z-index: -1;
         }
     }
     
@@ -899,66 +904,107 @@ footer{
     {
         display: flex;
         flex-direction: column;
-        gap: 5vh;
-        width: 1150px;
+        gap: 20vh;
+        width: 1000px;
         margin-left: 50%;
         margin-right: 50%;
         transform : translateX(-50%);
-        margin-bottom: 20vh;
-        .container-texty
-    {
-        z-index: 1;
-        display: flex;
-        flex-direction: row;
-        gap: 5vw;
-        justify-self: center;
+        
 
-        .Sluzby-podtext
+        .item
         {
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            align-items: center;
-            width: 35vw;
             height: auto;
-            background-color: #1E1E1E;
-            border-radius: 20px;
-            
-            .podnadpis
+            .container-texty
             {
-                color: white;
+                z-index: 1;
                 display: flex;
                 flex-direction: row;
-                padding-top: 20px;
-                padding-bottom: 10px;
-                h1{
-                    font-size: 30px;
+                gap: 5vw;
+                justify-self: center;
+                
+
+                .Sluzby-podtext
+                {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 35vw;
+                    height: auto;
+                    background-color: #1E1E1E;
+                    border-radius: 20px;
+                    
+                    .podnadpis
+                    {
+                        color: white;
+                        display: flex;
+                        flex-direction: row;
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                        h1{
+                            font-size: 30px;
+                        }
+                    }
+                    #char
+                    {
+                        color: #0066FE;
+                    }
+                    .podtext-onas
+                    {
+                        color: white;
+                        width: 400px;
+                        padding-bottom: 20px;
+                        p{
+                            font-size: 15px;
+                        }
+                    }
                 }
-            }
-            #char
-            {
-                color: #0066FE;
-            }
-            .podtext-onas
-            {
-                color: white;
-                width: 400px;
-                padding-bottom: 20px;
-                p{
-                    font-size: 15px;
+                .Sluzby-podtext-dlouhy
+                {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 1000px;
+                    height: auto;
+                    background-color: #1E1E1E;
+                    border-radius: 20px;
+                    
+                    .podnadpis
+                    {
+                        color: white;
+                        display: flex;
+                        flex-direction: row;
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                        h1{
+                            font-size: 30px;
+                        }
+                    }
+                    #char
+                    {
+                        color: #0066FE;
+                    }
+                    .podtext-onas
+                    {
+                        color: white;
+                        width: auto;
+                        padding: 20px;
+                        p{
+                            font-size: 15px;
+                        }
+                    }
                 }
             }
         }
-    }
     }
     .Sluzby-text{
         display: flex;
         flex-direction: column;
         justify-self: center;
         color: white;
-        gap: 50px;
+        gap: 10vh;
         z-index: 1;
-
         
         .nadpis{
             display: flex;
@@ -988,7 +1034,6 @@ footer{
         }
         .podtext-onas{
             margin-left: 40px;
-            height: 365px;
             width: 1000px;
             p{
                 font-size: 20px;
@@ -996,7 +1041,7 @@ footer{
         }
         .text-onas{
             margin-left: 40px;
-            height: 365px;
+            height: auto;
             width: 1000px;
             p{
                 font-size: 30px;
@@ -1106,7 +1151,7 @@ footer{
     .sluzbydecor2
     {
         img{
-            margin-top: -50vh;
+            margin-top: -20vh;
             width: 450px;
         }
     }

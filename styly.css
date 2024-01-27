@@ -490,10 +490,12 @@ footer .footerlogo .text {
   }
   .section2 .decor2 {
     float: right;
-    margin-bottom: -40vh;
+    margin-top: -30vh;
   }
   .section2 .decor3 {
-    margin-bottom: -20vh;
+    margin-top: -60vh;
+    position: relative;
+    z-index: -1;
   }
   .kontakt2 a:link {
     text-decoration: none;
@@ -537,6 +539,9 @@ footer .footerlogo .text {
   }
   .onasdecor2 img {
     height: 400px;
+    margin-top: -20vh;
+    position: relative;
+    z-index: -1;
   }
   footer {
     bottom: 0;
@@ -655,21 +660,23 @@ footer .footerlogo .text {
   .Sluzby-texty {
     display: flex;
     flex-direction: column;
-    gap: 5vh;
-    width: 1150px;
+    gap: 20vh;
+    width: 1000px;
     margin-left: 50%;
     margin-right: 50%;
     transform: translateX(-50%);
-    margin-bottom: 20vh;
   }
-  .Sluzby-texty .container-texty {
+  .Sluzby-texty .item {
+    height: auto;
+  }
+  .Sluzby-texty .item .container-texty {
     z-index: 1;
     display: flex;
     flex-direction: row;
     gap: 5vw;
     justify-self: center;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -679,25 +686,56 @@ footer .footerlogo .text {
     background-color: #1E1E1E;
     border-radius: 20px;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext .podnadpis {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext .podnadpis {
     color: white;
     display: flex;
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 10px;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext .podnadpis h1 {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext .podnadpis h1 {
     font-size: 30px;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext #char {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext #char {
     color: #0066FE;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext .podtext-onas {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext .podtext-onas {
     color: white;
     width: 400px;
     padding-bottom: 20px;
   }
-  .Sluzby-texty .container-texty .Sluzby-podtext .podtext-onas p {
+  .Sluzby-texty .item .container-texty .Sluzby-podtext .podtext-onas p {
+    font-size: 15px;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy .podnadpis {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy .podnadpis h1 {
+    font-size: 30px;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy #char {
+    color: #0066FE;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy .podtext-onas {
+    color: white;
+    width: auto;
+    padding: 20px;
+  }
+  .Sluzby-texty .item .container-texty .Sluzby-podtext-dlouhy .podtext-onas p {
     font-size: 15px;
   }
   .Sluzby-text {
@@ -705,7 +743,7 @@ footer .footerlogo .text {
     flex-direction: column;
     justify-self: center;
     color: white;
-    gap: 50px;
+    gap: 10vh;
     z-index: 1;
   }
   .Sluzby-text .nadpis {
@@ -732,7 +770,6 @@ footer .footerlogo .text {
   }
   .Sluzby-text .podtext-onas {
     margin-left: 40px;
-    height: 365px;
     width: 1000px;
   }
   .Sluzby-text .podtext-onas p {
@@ -740,7 +777,7 @@ footer .footerlogo .text {
   }
   .Sluzby-text .text-onas {
     margin-left: 40px;
-    height: 365px;
+    height: auto;
     width: 1000px;
   }
   .Sluzby-text .text-onas p {
@@ -842,7 +879,7 @@ footer .footerlogo .text {
     font-size: 25px;
   }
   .sluzbydecor2 img {
-    margin-top: -50vh;
+    margin-top: -20vh;
     width: 450px;
   }
   .sluzbydecor img {
