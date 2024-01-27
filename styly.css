@@ -104,7 +104,7 @@ header #first h1 {
 footer {
   bottom: 0;
   left: 0;
-  height: 20vh;
+  height: 25vh;
   width: 100vw;
   background-color: #1E1E1E;
   color: white;
@@ -146,6 +146,7 @@ footer .footerlogo .text {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    gap: 10vh;
   }
   header {
     display: grid;
@@ -247,7 +248,7 @@ footer .footerlogo .text {
     align-items: center;
     background-color: #1E1E1E;
     border-radius: 20px;
-    gap: 5vh;
+    gap: 1vh;
   }
   .Onas .nadpis #char {
     display: none;
@@ -258,11 +259,36 @@ footer .footerlogo .text {
   .Onas .text-onas {
     width: 90%;
   }
+  .kontakt1 {
+    width: 340px;
+    background-color: #1E1E1E;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: auto;
+    gap: 1vh;
+  }
+  .kontakt1 .nadpis #char {
+    display: none;
+  }
   .kontakt1 .nadpis h1 {
     font-size: 30px;
   }
+  .kontakt1 .kontakt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .kontakt1 .kontakt2 a {
+    height: 30px;
+  }
+  .kontakt1 .kontakt2 .spolu {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+  }
   .kontakt1 .kontakt2 p {
-    font-size: 25px;
+    font-size: 20px;
   }
   .kontaktdecor2 {
     display: none;
