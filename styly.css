@@ -693,7 +693,7 @@ footer .footerlogo .text {
     transform: translateX(-50%);
   }
   .Sluzby-texty .item {
-    background-color: #111;
+    background-color: rgba(17, 17, 17, 0.7);
     height: auto;
     width: 1100px;
     margin-left: 50%;
