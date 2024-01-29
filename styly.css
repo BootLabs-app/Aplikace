@@ -137,6 +137,9 @@ footer .footerlogo .text {
 }
 
 @media screen and (max-width: 1000px) {
+  #blue {
+    color: #0066FE;
+  }
   .main {
     gap: 10vh;
   }
@@ -333,7 +336,7 @@ footer .footerlogo .text {
     display: flex;
     justify-content: center;
     font-size: 24px;
-    margin-top: 20vh;
+    margin-top: 5vh;
     align-items: center;
     height: 160px;
   }
@@ -349,6 +352,93 @@ footer .footerlogo .text {
   }
   .section1 .textmain h1 {
     width: 80vw;
+  }
+  .sluzbydecor {
+    display: none;
+  }
+  .sluzbydecor2 {
+    display: none;
+  }
+  .Sluzby-texty {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    gap: 5vh;
+  }
+  #mobile-item-last {
+    height: auto;
+  }
+  .item {
+    width: 340px;
+    height: 95vh;
+    background-color: #1E1E1E;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item #char {
+    display: none;
+  }
+  .item .Sluzby-text {
+    width: 90%;
+    gap: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item .Sluzby-text .nadpis {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  .item .Sluzby-text .nadpis h1 {
+    font-size: 24px;
+  }
+  .item .Sluzby-text .container-texty {
+    gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext {
+    background-color: #111;
+    border-radius: 50px;
+    display: grid;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext .podnadpis {
+    display: flex;
+    justify-content: center;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext .podtext-onas {
+    justify-self: center;
+    width: 90%;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext h1 {
+    font-size: 20px;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext p {
+    font-size: 10px;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext-dlouhy {
+    background-color: #111;
+    border-radius: 50px;
+    display: grid;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext-dlouhy .podnadpis {
+    display: flex;
+    justify-content: center;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext-dlouhy .podtext-onas {
+    justify-self: center;
+    width: 90%;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext-dlouhy h1 {
+    font-size: 20px;
+  }
+  .item .Sluzby-text .container-texty .Sluzby-podtext-dlouhy p {
+    font-size: 10px;
   }
   footer {
     display: flex;

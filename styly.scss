@@ -185,6 +185,10 @@ footer{
 
 @media screen and (max-width: 1000px){
 
+    #blue{
+        color: #0066FE;
+    }
+
     .main{
         gap: 10vh;
     }
@@ -301,6 +305,8 @@ footer{
         font-size: 36px;
         margin-left: 50px;
     }
+
+    //O nás
     
     .kontaktdecor{
         display: none;
@@ -346,6 +352,8 @@ footer{
 
     }
 
+    //Kontakt
+
     .kontakt1{
         width: 340px;
         background-color: #1E1E1E;
@@ -388,6 +396,8 @@ footer{
     .kontaktdecor2{
         display: none;
     }
+
+    //Domů
 
     .section2{
 
@@ -444,7 +454,7 @@ footer{
         display: flex;
         justify-content: center;
         font-size: 24px;
-        margin-top: 20vh;
+        margin-top: 5vh;
         align-items: center;
         height: 160px;
 
@@ -469,6 +479,116 @@ footer{
 
         }
     }
+
+    //Služby
+
+    .sluzbydecor{
+        display: none;
+    }
+
+    .sluzbydecor2{
+        display: none;
+    }
+
+    .Sluzby-texty{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        gap: 5vh;
+    }
+
+    #mobile-item-last{
+        height: auto;
+    }
+
+    .item{
+        width: 340px;
+        height: 95vh;
+        background-color: #1E1E1E;
+        border-radius: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        #char{
+            display: none;
+        }
+
+        .Sluzby-text{
+            width: 90%;
+            gap: 3vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .nadpis{
+                display: flex;
+                justify-content: center;
+                margin-top: 3vh;
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .container-texty{
+                gap: 5vh;
+                display: flex;
+                flex-direction: column;
+                width: 270px;
+                .Sluzby-podtext{
+                    background-color: #111;
+                    border-radius: 50px;
+                    display: grid;
+                    .podnadpis{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .podtext-onas{
+                        justify-self: center;
+                        width: 90%;
+                    }
+                    h1{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+                .Sluzby-podtext-dlouhy{
+                    background-color: #111;
+                    border-radius: 50px;
+                    display: grid;
+                    .podnadpis{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .podtext-onas{
+                        justify-self: center;
+                        width: 90%;
+                    }
+                    h1{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+
+                }
+                
+
+            }
+            
+        }
+
+
+
+    
+    }
+
+
 
     footer{
         display: flex;
