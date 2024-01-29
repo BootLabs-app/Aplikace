@@ -499,11 +499,15 @@ footer{
 
     #mobile-item-last{
         height: auto;
+        .nadpis{
+            margin-top: 5vh;
+
+        }
     }
 
     .item{
         width: 340px;
-        height: 95vh;
+        height: 790px;
         background-color: #1E1E1E;
         border-radius: 25px;
         color: white;
@@ -518,6 +522,7 @@ footer{
 
         .Sluzby-text{
             width: 90%;
+            height: auto;
             gap: 3vh;
             display: flex;
             flex-direction: column;
@@ -527,7 +532,6 @@ footer{
             .nadpis{
                 display: flex;
                 justify-content: center;
-                margin-top: 3vh;
                 h1{
                     font-size: 24px;
                 }
@@ -1163,7 +1167,6 @@ footer{
         .nadpis{
             display: flex;
             flex-direction: row;
-            gap: 20px;
             justify-content: center;
             h1{ 
                 font-size: 60px;

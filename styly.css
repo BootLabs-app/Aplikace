@@ -368,9 +368,12 @@ footer .footerlogo .text {
   #mobile-item-last {
     height: auto;
   }
+  #mobile-item-last .nadpis {
+    margin-top: 5vh;
+  }
   .item {
     width: 340px;
-    height: 95vh;
+    height: 790px;
     background-color: #1E1E1E;
     border-radius: 25px;
     color: white;
@@ -383,6 +386,7 @@ footer .footerlogo .text {
   }
   .item .Sluzby-text {
     width: 90%;
+    height: auto;
     gap: 3vh;
     display: flex;
     flex-direction: column;
@@ -391,7 +395,6 @@ footer .footerlogo .text {
   .item .Sluzby-text .nadpis {
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
   }
   .item .Sluzby-text .nadpis h1 {
     font-size: 24px;
@@ -873,7 +876,6 @@ footer .footerlogo .text {
   .Sluzby-text .nadpis {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     justify-content: center;
   }
   .Sluzby-text .nadpis h1 {
