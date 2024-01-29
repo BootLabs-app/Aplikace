@@ -385,6 +385,9 @@ footer .footerlogo .text {
   src: url(RobotoMono-VariableFont_wght.ttf);
 }
 @media screen and (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
   .nadpis {
     display: flex;
     flex-direction: row;
@@ -437,9 +440,6 @@ footer .footerlogo .text {
     min-height: 500px;
     height: 900px;
     color: white;
-  }
-  .section1 .mobile {
-    display: none;
   }
   .section1 .textmain {
     margin-top: 50vh;

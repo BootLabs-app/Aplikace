@@ -535,6 +535,9 @@ footer{
 
     
 @media screen and (min-width: 1000px){
+    .mobile{
+        display: none;
+    }
 
     .nadpis
     {
@@ -598,9 +601,7 @@ footer{
         height: 900px;
         color: white;
 
-        .mobile{
-            display: none;
-        }
+        
         .textmain
         {
             h1
