@@ -938,7 +938,15 @@ footer{
 
         .item
         {
+            background-color: #111;
             height: auto;
+            width: 1100px;
+            margin-left: 50%;
+            margin-right: 50%;
+            transform : translateX(-50%);
+            padding: 50px;
+            border-radius: 50px;
+
             .container-texty
             {
                 z-index: 1;
@@ -957,7 +965,7 @@ footer{
                     width: 35vw;
                     height: auto;
                     background-color: #1E1E1E;
-                    border-radius: 20px;
+                    border-radius: 50px;
                     
                     .podnadpis
                     {
@@ -979,6 +987,7 @@ footer{
                         color: white;
                         width: 400px;
                         padding-bottom: 20px;
+                        margin: 20px;
                         p{
                             font-size: 15px;
                         }
@@ -993,7 +1002,7 @@ footer{
                     width: 1000px;
                     height: auto;
                     background-color: #1E1E1E;
-                    border-radius: 20px;
+                    border-radius: 50px;
                     
                     .podnadpis
                     {
@@ -1030,14 +1039,13 @@ footer{
         color: white;
         gap: 10vh;
         z-index: 1;
-        
         .nadpis{
             display: flex;
             flex-direction: row;
             gap: 20px;
+            justify-content: center;
             h1{ 
-                font-size: 70px;
-
+                font-size: 60px;
             }
             #char
             {
@@ -1049,7 +1057,7 @@ footer{
             flex-direction: row;
             gap: 20px;
             h1{ 
-                font-size: 40px;
+                font-size: 35px;
 
             }
             #char
@@ -1058,18 +1066,21 @@ footer{
             }
         }
         .podtext-onas{
-            margin-left: 40px;
+            
             width: 1000px;
+            text-align: center;
             p{
-                font-size: 20px;
+                font-size: 12.5px;
             }
         }
         .text-onas{
             margin-left: 40px;
             height: auto;
             width: 1000px;
+            margin: 5px;
+            text-align: center;
             p{
-                font-size: 30px;
+                font-size: 20px;
             }
         }
     }
