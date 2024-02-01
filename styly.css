@@ -477,7 +477,7 @@ footer .footerlogo .text {
 }
 @font-face {
   font-family: normal;
-  src: url(RobotoMono-VariableFont_wght.ttf);
+  src: url(RobotoMono-Italic-VariableFont_wght.ttf);
 }
 @media screen and (min-width: 1000px) {
   .mobile {
@@ -712,9 +712,9 @@ footer .footerlogo .text {
     flex-direction: column;
     color: white;
     gap: 50px;
-    margin-top: 35vh;
     z-index: 1;
     margin-left: 15%;
+    margin-top: 12vh;
   }
   .main-onas .Onas p {
     font-size: 30px;
@@ -722,6 +722,7 @@ footer .footerlogo .text {
   .main-onas .Onas .nadpis {
     display: flex;
     flex-direction: row;
+    margin-top: 5vh;
   }
   .main-onas .Onas .nadpis h1 {
     font-size: 70px;

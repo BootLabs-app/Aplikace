@@ -654,11 +654,12 @@ footer{
 
 @font-face {
     font-family: normal;
-    src: url(RobotoMono-VariableFont_wght.ttf);
+    src: url(RobotoMono-Italic-VariableFont_wght.ttf)
 }
 
     
 @media screen and (min-width: 1000px){
+
     .mobile{
         display: none;
     }
@@ -961,9 +962,9 @@ footer{
         flex-direction: column;
         color: white;
         gap: 50px;
-        margin-top: 35vh;
         z-index: 1;
         margin-left: 15%;
+        margin-top: 12vh;
         
 
         p{
@@ -974,6 +975,7 @@ footer{
         .nadpis{
             display: flex;
             flex-direction: row;
+            margin-top: 5vh;
             h1{ 
                 font-size: 70px;
 
