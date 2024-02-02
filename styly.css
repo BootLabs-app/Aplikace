@@ -717,7 +717,6 @@ footer .footerlogo .text {
     height: 450px;
   }
   .kontaktdecor2 {
-    height: 25vh;
     z-index: -1;
     position: relative;
     float: right;
@@ -1002,6 +1001,9 @@ footer .footerlogo .text {
     float: right;
     margin-bottom: -25vh;
   }
+  footer {
+    height: auto;
+  }
   footer .nadpis {
     margin-top: 5vh;
   }
@@ -1025,7 +1027,6 @@ footer .footerlogo .text {
     justify-content: center;
     gap: 1vw;
     margin-top: -5vh;
-    margin-bottom: 5vh;
   }
   footer .footerlogo .logonapis {
     opacity: 0.3;
