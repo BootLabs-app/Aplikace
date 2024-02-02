@@ -137,11 +137,16 @@ footer .footerlogo .text {
 }
 
 @media screen and (max-width: 1000px) {
+  @font-face {
+    font-family: normal;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+  }
   #blue {
     color: #0066FE;
   }
   .main {
     gap: 10vh;
+    font-family: normal;
   }
   .main-onas {
     display: flex;
@@ -151,6 +156,7 @@ footer .footerlogo .text {
     justify-content: space-between;
     flex-direction: column;
     gap: 10vh;
+    font-family: normal;
   }
   header {
     display: grid;
@@ -187,6 +193,7 @@ footer .footerlogo .text {
   header #first h1 {
     color: white;
     font-size: 24px;
+    margin-top: 7.5px;
   }
   header #second-mobile {
     height: 100%;
@@ -198,6 +205,7 @@ footer .footerlogo .text {
   header #second-mobile img {
     height: 8vh;
     width: 8vh;
+    margin-top: 7.5px;
   }
   #second {
     display: none;
@@ -401,6 +409,8 @@ footer .footerlogo .text {
     display: flex;
     flex-direction: column;
     width: 270px;
+    padding: 30px;
+    text-align: center;
   }
   .item .Sluzby-text .container-texty .Sluzby-podtext {
     background-color: #111;
@@ -475,11 +485,11 @@ footer .footerlogo .text {
     margin-top: 1.5vh;
   }
 }
-@font-face {
-  font-family: normal;
-  src: url(RobotoMono-Italic-VariableFont_wght.ttf);
-}
 @media screen and (min-width: 1000px) {
+  @font-face {
+    font-family: normal;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+  }
   .mobile {
     display: none;
   }
@@ -650,13 +660,12 @@ footer .footerlogo .text {
   div {
     font-family: normal;
   }
-  .onasdecor {
-    margin-top: 9vh;
-  }
   .onasdecor img {
     height: 400px;
+    margin-bottom: -40vh;
     float: right;
-    margin-bottom: -20vh;
+    position: relative;
+    z-index: -1;
   }
   .onasdecor2 img {
     height: 400px;
@@ -706,6 +715,9 @@ footer .footerlogo .text {
     opacity: 0.3;
     padding-top: 15px;
   }
+  .main-onas {
+    margin-top: 0;
+  }
   .main-onas .Onas {
     height: 450px;
     display: flex;
@@ -715,6 +727,7 @@ footer .footerlogo .text {
     z-index: 1;
     margin-left: 15%;
     margin-top: 12vh;
+    margin-bottom: 10vh;
   }
   .main-onas .Onas p {
     font-size: 30px;
@@ -722,7 +735,7 @@ footer .footerlogo .text {
   .main-onas .Onas .nadpis {
     display: flex;
     flex-direction: row;
-    margin-top: 5vh;
+    margin-top: 12vh;
   }
   .main-onas .Onas .nadpis h1 {
     font-size: 70px;
@@ -926,7 +939,7 @@ footer .footerlogo .text {
     color: white;
     gap: 50px;
     z-index: 1;
-    margin-top: -30vh;
+    margin-top: -20vh;
     margin-bottom: 20vh;
   }
   .kontakt1 p {
@@ -935,7 +948,6 @@ footer .footerlogo .text {
   .kontakt1 .nadpis {
     display: flex;
     flex-direction: row;
-    gap: 20px;
   }
   .kontakt1 .nadpis h1 {
     font-size: 70px;

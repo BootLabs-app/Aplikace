@@ -184,6 +184,12 @@ footer{
 }
 
 @media screen and (max-width: 1000px){
+    @font-face {
+        font-family: normal;
+        src: url(RobotoMono-VariableFont_wght.ttf)
+    }
+
+    
 
     #blue{
         color: #0066FE;
@@ -191,6 +197,7 @@ footer{
 
     .main{
         gap: 10vh;
+        font-family: normal;
     }
 
     .main-onas{
@@ -201,6 +208,7 @@ footer{
         justify-content: space-between;
         flex-direction: column;
         gap: 10vh;
+        font-family: normal;
     }
 
     header{
@@ -234,6 +242,7 @@ footer{
                 flex-direction: row;
                 align-self: center;
                 justify-self: center;
+                
             }
             #l{
                 color: #0066FE;
@@ -241,7 +250,7 @@ footer{
             h1 {
                 color: white;
                 font-size: 24px;
-        
+                margin-top: 7.5px;
         
             }
         }
@@ -256,6 +265,7 @@ footer{
             img{
                 height: 8vh;
                 width: 8vh;
+                margin-top: 7.5px;
             }
 
 
@@ -537,6 +547,8 @@ footer{
                 display: flex;
                 flex-direction: column;
                 width: 270px;
+                padding: 30px;
+                text-align: center;
                 .Sluzby-podtext{
                     background-color: #111;
                     border-radius: 40px;
@@ -652,14 +664,15 @@ footer{
 }
 
 
-@font-face {
-    font-family: normal;
-    src: url(RobotoMono-Italic-VariableFont_wght.ttf)
-}
+
 
     
 @media screen and (min-width: 1000px){
 
+    @font-face {
+        font-family: normal;
+        src: url(RobotoMono-VariableFont_wght.ttf)
+    }
     .mobile{
         display: none;
     }
@@ -880,11 +893,13 @@ footer{
         font-family: normal;
     }
     .onasdecor{
-        margin-top: 9vh;
+        
         img{
             height: 400px;
+            margin-bottom: -40vh;
             float: right;
-            margin-bottom: -20vh;
+            position: relative;
+            z-index: -1;
         }
 
     }
@@ -956,6 +971,7 @@ footer{
         }
     }
 .main-onas{
+    margin-top: 0;
     .Onas{
         height: 450px;
         display: flex;
@@ -965,7 +981,7 @@ footer{
         z-index: 1;
         margin-left: 15%;
         margin-top: 12vh;
-        
+        margin-bottom: 10vh;
 
         p{
             font-size: 30px;
@@ -975,7 +991,7 @@ footer{
         .nadpis{
             display: flex;
             flex-direction: row;
-            margin-top: 5vh;
+            margin-top: 12vh;
             h1{ 
                 font-size: 70px;
 
@@ -1221,7 +1237,7 @@ footer{
         color: white;
         gap: 50px;
         z-index: 1;
-        margin-top: -30vh;
+        margin-top: -20vh;
         margin-bottom: 20vh;
         
         p{
@@ -1232,7 +1248,7 @@ footer{
         .nadpis{
             display: flex;
             flex-direction: row;
-            gap: 20px;
+            
             h1{ 
                 font-size: 70px;
         
