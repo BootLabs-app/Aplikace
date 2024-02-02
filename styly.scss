@@ -919,65 +919,8 @@ footer{
         }
     }
     
-    footer{
-        bottom: 0;
-        left: 0;
-        height: 250px;
-        width: 100%;
-        background-color: #1E1E1E;
-        color: white;
-        padding-top: 5vh;
-        
-        .nadpis
-        {
-            h2
-            {
-                font-size: 35px;
-                opacity: 0.3;
-            }
-        }
-        .info
-        {
-            p
-            {
-                font-size: 20px;
-                opacity: 0.3;
-            }
-        }
-        .kontakt
-        {
-            display: flex;
-            flex-direction: column;
-            gap: 1vh;
-            padding-left: 5em;
-            
-        }
-        .footerlogo
-        {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 1vw;
-            margin-top: -5vh;
-            .logonapis
-            {
-                opacity: 0.3;
-                display: flex;
-                flex-direction: row;
-                #l
-                {
-                    color: #0066FE;
-                }
-            }
-            .text
-            {
-                opacity: 0.3;
-                padding-top: 15px;
-            }
-        }
-    }
 .main-onas{
-    margin-top: 0;
+    height: auto;
     .Onas{
         height: 450px;
         display: flex;
@@ -1026,9 +969,9 @@ footer{
         img{
             height: 450px;
             float: right;
-            margin-top: -45vh;
             position: relative;
             z-index: -1;
+            margin-top: -40vh;
         }
     }
     .section3{
@@ -1348,18 +1291,8 @@ footer{
     }
 
     footer{
-        bottom: 0;
-        left: 0;
-        height: 250px;
-        width: 100%;
-        background-color: #1E1E1E;
-        color: white;
-        padding-top: 5vh;
-        
-        
-        
-        .nadpis
-        {
+        .nadpis{
+            margin-top: 5vh;
             h2
             {
                 font-size: 35px;
