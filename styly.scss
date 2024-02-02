@@ -328,7 +328,7 @@ footer{
     }
 
     .Onas{
-        height: 45vh;
+        height: auto;
         width: 340px;
         justify-content: center;
         flex-direction: column;
@@ -336,8 +336,10 @@ footer{
         background-color: #1E1E1E;
         border-radius: 20px;
         gap: 1vh;
+        margin-top: 12vh;
 
         .nadpis{
+            margin-top: 5vh;
 
             #char{
                 display: none;
@@ -532,6 +534,10 @@ footer{
             align-items: center;
             margin-top: 5vh;
             margin-bottom: 5vh;
+
+            .text-onas{
+                text-align: center;
+            }
 
 
             .nadpis{

@@ -250,7 +250,7 @@ footer .footerlogo .text {
     display: none;
   }
   .Onas {
-    height: 45vh;
+    height: auto;
     width: 340px;
     justify-content: center;
     flex-direction: column;
@@ -258,6 +258,10 @@ footer .footerlogo .text {
     background-color: #1E1E1E;
     border-radius: 20px;
     gap: 1vh;
+    margin-top: 12vh;
+  }
+  .Onas .nadpis {
+    margin-top: 5vh;
   }
   .Onas .nadpis #char {
     display: none;
@@ -396,6 +400,9 @@ footer .footerlogo .text {
     align-items: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
+  }
+  .item .Sluzby-text .text-onas {
+    text-align: center;
   }
   .item .Sluzby-text .nadpis {
     display: flex;
