@@ -966,6 +966,10 @@ footer{
         }
     }
     .kontaktdecor2{
+        height: 25vh;
+        z-index: -1;
+        position: relative;
+        float: right;
         img{
             height: 450px;
             float: right;
@@ -1322,6 +1326,7 @@ footer{
             justify-content: center;
             gap: 1vw;
             margin-top: -5vh;
+            margin-bottom: 5vh;
             .logonapis
             {
                 opacity: 0.3;
