@@ -18,6 +18,9 @@ header {
   position: fixed;
   z-index: 3;
 }
+header #first #nazev {
+  text-decoration: none;
+}
 header #first div {
   display: flex;
   flex-direction: row;
@@ -182,12 +185,14 @@ footer .footerlogo .text {
     height: 27px;
     width: 44px;
   }
-  header #first div {
+  header #first a {
     grid-column: 2/3;
-    display: flex;
-    flex-direction: row;
     align-self: center;
     justify-self: center;
+  }
+  header #first div {
+    display: flex;
+    flex-direction: row;
   }
   header #first #l {
     color: #0066FE;

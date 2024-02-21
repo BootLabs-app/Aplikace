@@ -10,9 +10,12 @@ var i = 0;
 var txt = 'Aplikace a bezpečnost na míru pro vaši firmu';
 var speed = 50;
 
-window.onload = function typetext() { 
-  typeWriter();
-}
+document.addEventListener("DOMContentLoaded", function() {
+
+    typeWriter();
+  
+});
+
 function typeWriter(){
   if (i < txt.length) {
     document.getElementById("demo").innerHTML += txt.charAt(i);
