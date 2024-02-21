@@ -588,11 +588,14 @@ footer .footerlogo .text {
     color: white;
   }
   .section1 .textmain {
+    width: 500px;
+    height: 280px;
     margin-top: 50vh;
     margin-left: 10%;
   }
   .section1 .textmain h1 {
     font-size: 70px;
+    width: 800px;
   }
   .section1 .decor {
     float: right;
