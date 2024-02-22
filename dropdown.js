@@ -8,7 +8,7 @@ function closeNav() {
 
 var i = 0;
 var txt = 'Aplikace a bezpečnost na míru pro vaši firmu';
-var speed = 50;
+var speed = 60;
 
 document.addEventListener("DOMContentLoaded", function() {
 
