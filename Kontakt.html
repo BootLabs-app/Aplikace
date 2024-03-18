@@ -14,15 +14,16 @@
     <link rel="icon" type="image/png" href="Images/faviconik.png"/>
     <link rel="stylesheet" href="styly.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="bootstrap.bundle.js"></script>
   </head>
   <body class="main-onas">
     <header class="mobile-absolute">
       <div id="first">
         <div id="image">
-          <a href="Domov.html"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
+          <a href="Domov"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
         </div>
-       <a id="nazev" href="Domov.html">
+       <a id="nazev" href="Domov">
         <div>
           <h1>Boot</h1>
           <h1 id="l">L</h1>
@@ -33,16 +34,16 @@
       <div id="second">
         <ul class="nav nav-pills nav-fill">
           <li class="nav-item">
-            <a class="nav-link" href="Domov.html">Domů</a>
+            <a class="nav-link" href="Domov">Domů</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Onas.html">O nás</a>
+            <a class="nav-link" href="Onas">O nás</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Sluzby.html">Služby</a>
+            <a class="nav-link" href="Sluzby">Služby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active rounded-3" aria-current="page" href="Kontakt.html">Kontakt</a>
+            <a class="nav-link active rounded-3" aria-current="page" href="Kontakt">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -53,10 +54,10 @@
     <div class="mobile">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="Domov.html">Domů</a>
-        <a href="Onas.html">O nás</a>
-        <a href="Sluzby.html">Služby</a>
-        <a class="active" href="Kontakt.html">Kontakt</a>
+        <a href="Domov">Domů</a>
+        <a href="Onas">O nás</a>
+        <a href="Sluzby">Služby</a>
+        <a class="active" href="Kontakt">Kontakt</a>
       </div>
     </div>
 
@@ -65,16 +66,16 @@
     </div>
 
     <div class="kontakt1">
-      <div class="nadpis">
+      <div class="nadpis" data-aos="fade-right">
         <h1 id="char">></h1><h1>Konta</h1><h1 id="blue">ktuj</h1><h1>te nás</h1>
       </div>
       <div class="kontakt2">
-        <a href="mailto:info@bootlabs.cz"><div class="spolu"><p id="char">></p><p class="text">info@bootlabs.cz</p></div></a>
-        <a href="mailto:david.chabera@bootlabs.cz"><div class="spolu"><p id="char">></p><p class="text">david.chabera@bootlabs.cz</p></div></a>
-        <a href="mailto:tomas.bilek@bootlabs.cz"><div class="spolu"><p id="char">></p><p class="text">tomas.bilek@bootlabs.cz</p></div></a>
-        <div class="spolu"><p id="char1">></p><p>+420 776 515 343</p></div>
-        <div class="spolu"><p id="char1">></p><p>+420 607 645 444</p></div>
-        <div class="spolu"><p id="char1">></p><p>Sídlo firmy</p></div>
+        <a href="mailto:info@bootlabs.cz"><div data-aos="fade-right" data-aos-delay="500" class="spolu"><p id="char">></p><p class="text">info@bootlabs.cz</p></div></a>
+        <a href="mailto:david.chabera@bootlabs.cz"><div data-aos="fade-right" data-aos-delay="600" class="spolu"><p id="char">></p><p class="text">david.chabera@bootlabs.cz</p></div></a>
+        <a href="mailto:tomas.bilek@bootlabs.cz"><div data-aos="fade-right" data-aos-delay="700" class="spolu"><p id="char">></p><p class="text">tomas.bilek@bootlabs.cz</p></div></a>
+        <div data-aos="fade-right" data-aos-delay="800" class="spolu"><p id="char1">></p><p>+420 776 515 343</p></div>
+        <div data-aos="fade-right" data-aos-delay="900" class="spolu"><p id="char1">></p><p>+420 607 645 444</p></div>
+        <div data-aos="fade-right" data-aos-delay="1000" class="spolu"><p id="char1">></p><p>Sídlo firmy</p></div>
       </div>
       
     </div>
@@ -102,5 +103,9 @@
       </div>
     </footer>
     <script src="dropdown.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

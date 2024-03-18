@@ -14,36 +14,36 @@
     <link rel="stylesheet" href="styly.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="icon" type="image/png" href="Images/faviconik.png"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="bootstrap.bundle.js"></script>
 </head>
 <body class="main">
     <header>
         <div id="first">
           <div id="image">
-            <a href="Domov.html"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
+            <a href="Domov"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
           </div>
-          <a id="nazev" href="Domov.html">
+          <a id="nazev" href="Domov">
             <div>
               <h1>Boot</h1>
               <h1 id="l">L</h1>
               <h1>abs</h1>
             </div>
-           </a>
-          
+           </a>          
         </div>
         <div id="second">
           <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link" href="Domov.html">Domů</a>
+              <a class="nav-link" href="Domov">Domů</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Onas.html">O nás</a>
+              <a class="nav-link" href="Onas">O nás</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active rounded-3" aria-current="page" href="Sluzby.html">Služby</a>
+                <a class="nav-link active rounded-3" aria-current="page" href="Sluzby">Služby</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Kontakt.html">Kontakt</a>
+                <a class="nav-link" href="Kontakt">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -54,10 +54,10 @@
       <div class="mobile">
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="Domov.html">Domů</a>
-          <a href="Onas.html">O nás</a>
-          <a class="active" href="Sluzby.html">Služby</a>
-          <a href="Kontakt.html">Kontakt</a>
+          <a href="Domov">Domů</a>
+          <a href="Onas">O nás</a>
+          <a class="active" href="Sluzby">Služby</a>
+          <a href="Kontakt">Kontakt</a>
         </div>
       </div>
       <div class="sluzbydecor">
@@ -77,7 +77,7 @@
                   </div>
 
                   <div class="container-texty">
-                    <div class="Sluzby-podtext">
+                    <div data-aos="zoom-in-right" data-aos-delay="250" data-aos-duration="700" class="Sluzby-podtext">
                         <div class="podnadpis">
                             <h1 id="char">></h1><h1>Proč flutter?</h1>
                         </div>
@@ -89,7 +89,7 @@
                                 pro vytváření moderních mobilních aplikací na míru.</p>
                             </div>
                     </div>
-                    <div class="Sluzby-podtext">
+                    <div data-aos="zoom-in-left" data-aos-delay="250" data-aos-duration="700" class="Sluzby-podtext">
                         <div class="podnadpis">
                             <h1 id="char">></h1><h1>Proč si vybrat nás?</h1>
                         </div>
@@ -117,7 +117,7 @@
                         profesionalitu a výsledky, které předčí vaše očekávání.</p>
                   </div>
 
-                  <div class="container-texty">
+                  <div data-aos="fade-up" class="container-texty">
                     <div class="Sluzby-podtext-dlouhy">
                         <div class="podnadpis">
                             <h1 id="char">></h1><h1>Proč SCSS?</h1>
@@ -132,8 +132,7 @@
                   </div>
             </div>
           </div>
-          
-          <div class="item" id="mobile-item-last">
+          <div  class="item" id="mobile-item-last">
             <div class="Sluzby-text">
                   <div class="nadpis">
                       <h1 id="char">></h1><h1>Bezpeč</h1><h1 id="blue">nostn</h1><h1>í řešení</h1>
@@ -145,27 +144,12 @@
                         byla vaše společnost chráněna před různými typy útoků. S našimi bezpečnostními řešeními můžete
                         mít jistotu, že vaše data jsou v bezpečí a vaše firma plní nejvyšší bezpečnostní standardy.</p>
                   </div>
-
-                  
             </div>
           </div>
-          
-        
-            
-
-            
-            
         </div>
-      
-      
-      
         <div class="sluzbydecor2">
         <img src="Images/sluzbydecor2.jpg" alt="sluzbydecor2">
       </div>
-
-
-
-
       <footer>
         <div class="kontakt">
           <div class="nadpis">
@@ -187,5 +171,9 @@
         </div>
       </footer>
       <script src="dropdown.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

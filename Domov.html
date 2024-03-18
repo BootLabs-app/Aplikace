@@ -14,25 +14,16 @@
     <title>Bezpečná Aplikace na míru | BootLabs</title>
     <link rel="stylesheet" href="styly.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="bootstrap.bundle.js"></script>
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "BootLabs",
-        "url": "https://bootlabs.cz",
-        "logo": "https://bootlabs.cz/Images/faviconik.png",
-        "image": "https://bootlabs.cz/Images/faviconik.png"
-      }
-      </script>
   </head>
   <body class="main">
     <header>
       <div id="first">
         <div id="image">
-          <a href="Domov.html"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
+          <a href="Domov"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
         </div>
-        <a id="nazev" href="Domov.html">
+        <a id="nazev" href="Domov">
           <div>
             <h1>Boot</h1>
             <h1 id="l">L</h1>
@@ -43,16 +34,16 @@
       <div id="second">
         <ul class="nav nav-pills nav-fill">
           <li class="nav-item">
-            <a class="nav-link active rounded-3" aria-current="page" href="Domov.html">Domů</a>
+            <a class="nav-link active rounded-3" aria-current="page" href="Domov">Domů</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Onas.html">O nás</a>
+            <a class="nav-link" href="Onas">O nás</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Sluzby.html">Služby</a>
+            <a class="nav-link" href="Sluzby">Služby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Kontakt.html">Kontakt</a>
+            <a class="nav-link" href="Kontakt">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -63,10 +54,10 @@
     <div class="mobile">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class="active" href="Domov.html">Domů</a>
-        <a href="Onas.html">O nás</a>
-        <a href="Sluzby.html">Služby</a>
-        <a href="Kontakt.html">Kontakt</a>
+        <a class="active" href="Domov">Domů</a>
+        <a href="Onas">O nás</a>
+        <a href="Sluzby">Služby</a>
+        <a href="Kontakt">Kontakt</a>
       </div>
     </div>
     <div class="section1">
@@ -79,7 +70,7 @@
     </div>
     <div class="section2">
       <div class="texty">
-        <div class="text1" id="mobile-text">
+        <div data-aos="fade-right" class="text1" id="mobile-text">
           <div class="nadpis1" id="mobile-nadpis">
             <h1 id="char">></h1><h1>Webo<h1 id="blue">vé ap</h1><h1>likace</h1>
           </div>
@@ -87,7 +78,7 @@
             <p>Náš tým na vývoj webových aplikací se stará o poskytnutí nejlepších možných řešení pro vás</p>
           </div>
         </div>
-        <div class="text2" id="mobile-text">
+        <div data-aos="fade-left" class="text2" id="mobile-text">
           <div class="nadpis2" id="mobile-nadpis">
             <h1 id="char">></h1><h1>Mobil<h1 id="blue">ní ap</h1><h1>likace</h1>
           </div>
@@ -95,7 +86,7 @@
             <p>Přinášíme na trh moderní a uživatelsky příjemné mobilní aplikace pro platformy Android a iOS</p>
           </div>
         </div>
-        <div class="text3" id="mobile-text">
+        <div data-aos="fade-right"  class="text3" id="mobile-text">
           <div class="nadpis3" id="mobile-nadpis">
             <h1 id="char">></h1><h1>Bezpeč<h1 id="blue">nost</h1><h1>ní řešení</h1>
           </div>
@@ -131,5 +122,9 @@
       </div>
     </footer>
     <script src="dropdown.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

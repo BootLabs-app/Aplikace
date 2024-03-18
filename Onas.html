@@ -14,15 +14,16 @@
     <link rel="stylesheet" href="styly.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="icon" type="image/png" href="Images/faviconik.png"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="bootstrap.bundle.js"></script>
 </head>
 <body class="main">
     <header>
         <div id="first">
           <div id="image">
-            <a href="Domov.html"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
+            <a href="Domov"><img src="Images/LOGO 16.39.19.png" alt="LOGO"></a>
           </div>
-          <a id="nazev" href="Domov.html">
+          <a id="nazev" href="Domov">
             <div>
               <h1>Boot</h1>
               <h1 id="l">L</h1>
@@ -34,16 +35,16 @@
         <div id="second">
           <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link" href="Domov.html">Domů</a>
+              <a class="nav-link" href="Domov">Domů</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active rounded-3" aria-current="page" href="Onas.html">O nás</a>
+              <a class="nav-link active rounded-3" aria-current="page" href="Onas">O nás</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Sluzby.html">Služby</a>
+              <a class="nav-link" href="Sluzby">Služby</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Kontakt.html">Kontakt</a>
+                <a class="nav-link" href="Kontakt">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -54,36 +55,28 @@
       <div class="mobile">
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="Domov.html">Domů</a>
-          <a class="active" href="Onas.html">O nás</a>
-          <a href="Sluzby.html">Služby</a>
-          <a href="Kontakt.html">Kontakt</a>
+          <a href="Domov">Domů</a>
+          <a class="active" href="Onas">O nás</a>
+          <a href="Sluzby">Služby</a>
+          <a href="Kontakt">Kontakt</a>
         </div>
       </div>
       <div class="sluzbydecor">
         <img src="Images/onasdecor.jpg" alt="onasdecor">
       </div>
-        
           <div class="onas-item">
-                <div class="nadpis">
+                <div data-aos="fade-right" class="nadpis">
                   <h1 id="char">></h1><h1>Kd</h1><h1 id="blue">o js</h1><h1>me</h1>
                 </div>
-                <div class="text-onas">
+                <div data-aos="zoom-in" data-aos-delay="300" class="text-onas">
                   <p>Jsme nově založená společnost BootLabs, váš inovační partner v oblasti digitálního rozvoje. 
                     S vášní pro technologii a kreativním 
                     přístupem ke každému projektu, jsme tu, abychom přinesli nový standard v oblasti vývoje mobilních a webových aplikací, stejně jako technologickou bezpečnost vaší firmě</p>
                 </div>
-          </div>
-
-         
-          
+          </div>    
         <div class="sluzbydecor2">
         <img src="Images/onasdecor2.jpg" alt="onasdecor2">
       </div>
-
-
-
-
       <footer>
         <div class="kontakt">
           <div class="nadpis">
@@ -105,5 +98,9 @@
         </div>
       </footer>
       <script src="dropdown.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
